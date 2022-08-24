@@ -1,0 +1,140 @@
+:root {
+  --animation-speed: 2s;
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --background-color: #212121;
+  --text-color: #fff;
+  --font: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  /* background: #343434 !important; */
+}
+
+.loading_container {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  /* border-radius: 150px; */
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  border-radius: 150px;
+  border-right: 0.3rem solid white;
+  animation: animate var(--animation-speed) linear infinite;
+}
+
+.loading_container img {
+  color: var(--text-color);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Animation */
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* .stage {
+  border-bottom: 3px solid #444;
+  display: flex;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+} */
+.box1 {
+  align-self: flex-end;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+}
+
+.box2 {
+  align-self: flex-end;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+}
+
+.box3 {
+  align-self: flex-end;
+  animation-duration: 7.5s;
+  animation-iteration-count: infinite;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+}
+
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/***
+*** Support Live score Animation 
+TODO: Use material UI styles 
+**/
+
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.live-score-blink {
+  height: 0.3rem;
+  width: 0.3rem;
+  display: block;
+  background-color: #6fb548;
+  text-decoration: blink;
+  /* border-radius: 50%; */
+  margin: -1.2rem 0 0 0.1rem;
+  animation-name: blinker;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}

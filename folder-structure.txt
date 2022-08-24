@@ -1,0 +1,528 @@
+📦src
+ ┣ 📂assets
+ ┃ ┣ 📂demo
+ ┃ ┃ ┣ 📜betting_view.PNG
+ ┃ ┃ ┗ 📜betting_view1.png
+ ┃ ┣ 📂icons
+ ┃ ┃ ┣ 📜.DS_Store
+ ┃ ┃ ┣ 📜Combined Shape.svg
+ ┃ ┃ ┣ 📜Path 10.svg
+ ┃ ┃ ┣ 📜Path.svg
+ ┃ ┃ ┣ 📜Star.svg
+ ┃ ┃ ┣ 📜accordion_plus.svg
+ ┃ ┃ ┣ 📜arrow.svg
+ ┃ ┃ ┣ 📜arrow_below.svg
+ ┃ ┃ ┣ 📜arrow_up.svg
+ ┃ ┃ ┣ 📜bonus.svg
+ ┃ ┃ ┣ 📜default_sports.png
+ ┃ ┃ ┣ 📜dropdown_arrow.svg
+ ┃ ┃ ┣ 📜error_.PNG
+ ┃ ┃ ┣ 📜filter_icon.svg
+ ┃ ┃ ┣ 📜green_check.svg
+ ┃ ┃ ┣ 📜home_icon.svg
+ ┃ ┃ ┣ 📜icon_Basketball.svg
+ ┃ ┃ ┣ 📜icon_Basketball_black.svg
+ ┃ ┃ ┣ 📜icon_Esport.svg
+ ┃ ┃ ┣ 📜icon_Esport_black.svg
+ ┃ ┃ ┣ 📜icon_Football.svg
+ ┃ ┃ ┣ 📜icon_Football_black.svg
+ ┃ ┃ ┣ 📜icon_Tennis.svg
+ ┃ ┃ ┣ 📜icon_Tennis_black.svg
+ ┃ ┃ ┣ 📜icon_active_Basketball.svg
+ ┃ ┃ ┣ 📜icon_active_Esport.svg
+ ┃ ┃ ┣ 📜icon_active_Football.svg
+ ┃ ┃ ┣ 📜icon_calendar.svg
+ ┃ ┃ ┣ 📜icon_remove.svg
+ ┃ ┃ ┣ 📜icon_signin.svg
+ ┃ ┃ ┣ 📜noun_Android_824395.svg
+ ┃ ┃ ┣ 📜noun_mac_2076879.svg
+ ┃ ┃ ┣ 📜oddsbug_logotype-01.svg
+ ┃ ┃ ┣ 📜searchbox.svg
+ ┃ ┃ ┣ 📜searchbox_selected.svg
+ ┃ ┃ ┗ 📜sorting_icon.svg
+ ┃ ┣ 📂images
+ ┃ ┃ ┣ 📜oddsbug_teams_logo.PNG
+ ┃ ┃ ┗ 📜stadium.jpg
+ ┃ ┣ 📂scss
+ ┃ ┃ ┣ 📂custom
+ ┃ ┃ ┃ ┗ 📜sweet-alert-material-ui.scss
+ ┃ ┃ ┗ 📜main.scss
+ ┃ ┣ 📜.DS_Store
+ ┃ ┗ 📜style.css
+ ┣ 📂components
+ ┃ ┣ 📂action-menu
+ ┃ ┃ ┣ 📜action-menu.component.props.ts
+ ┃ ┃ ┣ 📜action-menu.component.test.tsx
+ ┃ ┃ ┣ 📜action-menu.component.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂admin-header
+ ┃ ┃ ┣ 📜admin-header.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂admin-sidenav
+ ┃ ┃ ┣ 📜admin-side-navbar.tsx
+ ┃ ┃ ┣ 📜admin-sidenav.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂alerts-notifications
+ ┃ ┃ ┗ 📜alert-notifications.tsx
+ ┃ ┣ 📂all-leagues
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┗ 📜all-leagues.styles.ts
+ ┃ ┃ ┣ 📜all-leagues.tsx
+ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┗ 📜leagues-countries.tsx
+ ┃ ┣ 📂app-drawer
+ ┃ ┃ ┣ 📜AppDrawer.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂app-modal-view
+ ┃ ┃ ┣ 📜app-modal-view.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂auth
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┗ 📜auth-modal.styles.ts
+ ┃ ┃ ┣ 📜auth-modal-types.ts
+ ┃ ┃ ┗ 📜auth-modal.tsx
+ ┃ ┣ 📂bets
+ ┃ ┃ ┣ 📜bet-bookmakers.tsx
+ ┃ ┃ ┣ 📜bet-leagues-title.tsx
+ ┃ ┃ ┣ 📜bets.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂betting-sorting-panel
+ ┃ ┃ ┣ 📜betting-sorting-panel.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂betting-tools
+ ┃ ┃ ┣ 📜betting-tool-games.tsx
+ ┃ ┃ ┣ 📜betting-tool-matches.tsx
+ ┃ ┃ ┣ 📜betting-tools.tsx
+ ┃ ┃ ┗ 📜odd-view-type.tsx
+ ┃ ┣ 📂bottom-app-bar
+ ┃ ┃ ┣ 📜bottom-app-bar.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂club-image
+ ┃ ┃ ┣ 📜club-image.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📂dcButton
+ ┃ ┃ ┃ ┣ 📜DCButton.tsx
+ ┃ ┃ ┃ ┗ 📜index.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂coupons
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┗ 📜coupons.styles.ts
+ ┃ ┃ ┣ 📜coupons.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂custom-view-table
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┗ 📜table.styles.ts
+ ┃ ┃ ┣ 📜custom-view-table.tsx
+ ┃ ┃ ┣ 📜global-filter.tsx
+ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┣ 📜react-table-config.d.ts
+ ┃ ┃ ┣ 📜table-pagination-action.tsx
+ ┃ ┃ ┣ 📜table-toolbar.tsx
+ ┃ ┃ ┣ 📜types.ts
+ ┃ ┃ ┗ 📜utils.ts
+ ┃ ┣ 📂date-panel
+ ┃ ┃ ┣ 📜date-panel.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂footer
+ ┃ ┃ ┣ 📜footer.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂header
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┣ 📜Logo.tsx
+ ┃ ┃ ┃ ┣ 📜langauge-selector.tsx
+ ┃ ┃ ┃ ┣ 📜navbar-panel.tsx
+ ┃ ┃ ┃ ┗ 📜user-icon-nav.tsx
+ ┃ ┃ ┣ 📜Header.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂loaders
+ ┃ ┃ ┣ 📜backdrop-loader.tsx
+ ┃ ┃ ┣ 📜custom-loader.tsx
+ ┃ ┃ ┣ 📜fallback.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂markdown
+ ┃ ┃ ┣ 📜rich-editor.tsx
+ ┃ ┃ ┗ 📜useEditor.tsx
+ ┃ ┣ 📂modal-box
+ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┣ 📜modal-box.tsx
+ ┃ ┃ ┗ 📜modal.style.ts
+ ┃ ┣ 📂navbarlowlayer
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┗ 📜nav-bar.styles.ts
+ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┗ 📜navbar-low-layer.tsx
+ ┃ ┣ 📂searchbar
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┗ 📜search-bar.styles.ts
+ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┣ 📜search-bar.tsx
+ ┃ ┃ ┗ 📜search-input-field.tsx
+ ┃ ┣ 📂social-media
+ ┃ ┃ ┣ 📂icons
+ ┃ ┃ ┃ ┣ 📜Facebook.svg
+ ┃ ┃ ┃ ┣ 📜Instagram.svg
+ ┃ ┃ ┃ ┗ 📜Twitter_1.svg
+ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┗ 📜social-media.tsx
+ ┃ ┣ 📂sports-icon
+ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┗ 📜sport-icon.tsx
+ ┃ ┣ 📂status-bullet
+ ┃ ┃ ┣ 📜index.ts
+ ┃ ┃ ┗ 📜status-bullet.tsx
+ ┃ ┣ 📂time-zone-selector
+ ┃ ┃ ┗ 📜timezone-selector.tsx
+ ┃ ┣ 📂v2bets
+ ┃ ┃ ┣ 📜betsview-table.tsx
+ ┃ ┃ ┣ 📜match-ui.tsx
+ ┃ ┃ ┣ 📜odd-sorting.tsx
+ ┃ ┃ ┣ 📜v2Bets.tsx
+ ┃ ┃ ┣ 📜v2bet-details.tsx
+ ┃ ┃ ┣ 📜v2bets-title.tsx
+ ┃ ┃ ┗ 📜v2bookmaker.tsx
+ ┃ ┗ 📜index.ts
+ ┣ 📂config
+ ┃ ┗ 📜env.config.ts
+ ┣ 📂constants
+ ┃ ┗ 📜local-storage.constants.ts
+ ┣ 📂features
+ ┃ ┣ 📂admin
+ ┃ ┃ ┣ 📂bookmarker
+ ┃ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┃ ┣ 📜add-diller.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜add-whitelisted-bookmarker.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜all-bookmarkers.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜delete-bookmaker.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜payment-methods.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜payment-table.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜react-phone-input-2.d.ts
+ ┃ ┃ ┃ ┃ ┣ 📜tag-input-field.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜whitelisted-bookmarker.tsx
+ ┃ ┃ ┃ ┣ 📂hooks
+ ┃ ┃ ┃ ┃ ┣ 📜use-all-bookmarkers.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜use-bookmaker-details.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜use-whitelisted-bookmarker.tsx
+ ┃ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┃ ┗ 📜bookmarker.styles.ts
+ ┃ ┃ ┃ ┗ 📜bookmarker.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂auth
+ ┃ ┃ ┣ 📂sign-In
+ ┃ ┃ ┃ ┣ 📜password-reset.test.tsx
+ ┃ ┃ ┃ ┣ 📜password-reset.tsx
+ ┃ ┃ ┃ ┣ 📜password-update.test.tsx
+ ┃ ┃ ┃ ┣ 📜password-update.tsx
+ ┃ ┃ ┃ ┣ 📜sigin-in.tsx
+ ┃ ┃ ┃ ┣ 📜signin-form.test.tsx
+ ┃ ┃ ┃ ┗ 📜signin-form.tsx
+ ┃ ┃ ┣ 📂sign-up
+ ┃ ┃ ┃ ┣ 📜sign-up.tsx
+ ┃ ┃ ┃ ┣ 📜signup-confirmation.test.tsx
+ ┃ ┃ ┃ ┣ 📜signup-confirmation.tsx
+ ┃ ┃ ┃ ┣ 📜signup-form.test.tsx
+ ┃ ┃ ┃ ┣ 📜signup-form.tsx
+ ┃ ┃ ┃ ┣ 📜verify-account.test.tsx
+ ┃ ┃ ┃ ┗ 📜verify-account.tsx
+ ┃ ┃ ┗ 📂styles
+ ┃ ┃ ┃ ┗ 📜auth.styles.ts
+ ┃ ┣ 📂bet-league-details
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┣ 📜details-header.tsx
+ ┃ ┃ ┃ ┣ 📜details-select-panel.tsx
+ ┃ ┃ ┃ ┣ 📜details-table.tsx
+ ┃ ┃ ┃ ┣ 📜dynamic-select-button.tsx
+ ┃ ┃ ┃ ┗ 📜select-panel.tsx
+ ┃ ┃ ┣ 📜bet-leagues-details.tsx
+ ┃ ┃ ┗ 📜betting-league-matches.tsx
+ ┃ ┣ 📂betting
+ ┃ ┃ ┗ 📜betting.tsx
+ ┃ ┣ 📂betting-tools-dashboard
+ ┃ ┃ ┗ 📜betting-tools-dashboard.tsx
+ ┃ ┣ 📂book-markers
+ ┃ ┃ ┣ 📜book-markers.tsx
+ ┃ ┃ ┣ 📜bookmarker-list.tsx
+ ┃ ┃ ┗ 📜sorting-bar.tsx
+ ┃ ┣ 📂bookmarker-details
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┣ 📜about.tsx
+ ┃ ┃ ┃ ┣ 📜bookmaker-error.tsx
+ ┃ ┃ ┃ ┣ 📜comparison-bookmarkers.tsx
+ ┃ ┃ ┃ ┣ 📜comparison-tabs.tsx
+ ┃ ┃ ┃ ┣ 📜comparison.tsx
+ ┃ ┃ ┃ ┣ 📜deposits.tsx
+ ┃ ┃ ┃ ┣ 📜diller.tsx
+ ┃ ┃ ┃ ┣ 📜playable-sport.tsx
+ ┃ ┃ ┃ ┣ 📜rating-modal.tsx
+ ┃ ┃ ┃ ┣ 📜sport-informations.tsx
+ ┃ ┃ ┃ ┣ 📜title-header.tsx
+ ┃ ┃ ┃ ┗ 📜withdrawn-money.tsx
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┗ 📜bookmakers-details.styles.ts
+ ┃ ┃ ┗ 📜bookmarker-details.tsx
+ ┃ ┣ 📂faq
+ ┃ ┃ ┗ 📜faq.tsx
+ ┃ ┣ 📂live-bets
+ ┃ ┃ ┗ 📜live-bets.tsx
+ ┃ ┣ 📂livescores
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┣ 📂bets
+ ┃ ┃ ┃ ┃ ┣ 📜bet-bookmakers.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜bet-leagues-title.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜bets.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜livescore-timing.tsx
+ ┃ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┃ ┗ 📜livescore-watch.styles.ts
+ ┃ ┃ ┃ ┣ 📜live-sport-icon.tsx
+ ┃ ┃ ┃ ┗ 📜livescore-watchlist.tsx
+ ┃ ┃ ┗ 📜livescores.tsx
+ ┃ ┣ 📂privacy-policy
+ ┃ ┃ ┗ 📜privacy-policy.tsx
+ ┃ ┣ 📂terms-conditions
+ ┃ ┃ ┗ 📜terms-conditions.tsx
+ ┃ ┗ 📂user-profile
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┣ 📜input-form.tsx
+ ┃ ┃ ┃ ┣ 📜profile-image-upload.tsx
+ ┃ ┃ ┃ ┗ 📜user-profile-skeleton.tsx
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┗ 📜user-profile.styles.ts
+ ┃ ┃ ┣ 📜user-profile.test.tsx
+ ┃ ┃ ┗ 📜user-profile.tsx
+ ┣ 📂helpers
+ ┃ ┣ 📜gen-random-Id.ts
+ ┃ ┣ 📜query-params.ts
+ ┃ ┗ 📜toast-alert.ts
+ ┣ 📂hooks
+ ┃ ┣ 📜useGetQuery.test.tsx
+ ┃ ┣ 📜useGetQuery.ts
+ ┃ ┗ 📜usePagniation.tsx
+ ┣ 📂languages
+ ┃ ┣ 📂en
+ ┃ ┃ ┗ 📜translation.json
+ ┃ ┗ 📂tur
+ ┃ ┃ ┗ 📜translation.json
+ ┣ 📂layouts
+ ┃ ┣ 📜Layouts.tsx
+ ┃ ┣ 📜NoWrapper.tsx
+ ┃ ┣ 📜admin-layouts.tsx
+ ┃ ┗ 📜scroll-top.tsx
+ ┣ 📂libs
+ ┃ ┣ 📜i18next.lib.ts
+ ┃ ┗ 📜index.ts
+ ┣ 📂logic
+ ┃ ┣ 📂admin
+ ┃ ┃ ┣ 📜all-bookmarkers.logic.ts
+ ┃ ┃ ┣ 📜banners.logic.ts
+ ┃ ┃ ┣ 📜login.logic.ts
+ ┃ ┃ ┣ 📜manage-translations.logic.ts
+ ┃ ┃ ┣ 📜site-settings.ts
+ ┃ ┃ ┣ 📜sitemap.logic.ts
+ ┃ ┃ ┣ 📜user-settings.logic.ts
+ ┃ ┃ ┗ 📜webcontent.logic.ts
+ ┃ ┣ 📂auth
+ ┃ ┃ ┗ 📜user-authentication.logic.ts
+ ┃ ┣ 📂home
+ ┃ ┃ ┗ 📜home.logic.ts
+ ┃ ┣ 📜all-leagues.logic.ts
+ ┃ ┣ 📜bets.logic.ts
+ ┃ ┣ 📜bookmaker.logic.ts
+ ┃ ┣ 📜livescores.logic.ts
+ ┃ ┗ 📜user-profile.logic.ts
+ ┣ 📂mock
+ ┃ ┗ 📜authentication.mock.ts
+ ┣ 📂models
+ ┃ ┣ 📜bookmarkers.model.ts
+ ┃ ┣ 📜common.models.ts
+ ┃ ┣ 📜coupon.model.ts
+ ┃ ┣ 📜error-handler.model.ts
+ ┃ ┣ 📜index.ts
+ ┃ ┣ 📜leagues.model.ts
+ ┃ ┣ 📜routes.model.ts
+ ┃ ┣ 📜site-setting.model.ts
+ ┃ ┣ 📜user-authentication.model.ts
+ ┃ ┗ 📜users.model.ts
+ ┣ 📂pages
+ ┃ ┣ 📂NotFound
+ ┃ ┃ ┗ 📜not-found.tsx
+ ┃ ┣ 📂admin
+ ┃ ┃ ┣ 📂auth
+ ┃ ┃ ┃ ┣ 📜admin-login.tsx
+ ┃ ┃ ┃ ┗ 📜style.ts
+ ┃ ┃ ┣ 📂banners
+ ┃ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┃ ┣ 📂media
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜media-list.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜media-upload.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜index.ts
+ ┃ ┃ ┃ ┗ 📜banners.tsx
+ ┃ ┃ ┣ 📂bookmarker
+ ┃ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┃ ┣ 📜add-whitelisted-bookmarker.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜all-bookmarkers.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜whitelisted-bookmarker.tsx
+ ┃ ┃ ┃ ┣ 📂hooks
+ ┃ ┃ ┃ ┃ ┣ 📜use-all-bookmarkers.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜use-whitelisted-bookmarker.tsx
+ ┃ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┃ ┗ 📜bookmarker.styles.ts
+ ┃ ┃ ┃ ┗ 📜bookmarker.tsx
+ ┃ ┃ ┣ 📂dashboard
+ ┃ ┃ ┃ ┣ 📜Overview.tsx
+ ┃ ┃ ┃ ┗ 📜Users.tsx
+ ┃ ┃ ┣ 📂manage-languages
+ ┃ ┃ ┃ ┣ 📂schemas
+ ┃ ┃ ┃ ┃ ┗ 📜language.schema.ts
+ ┃ ┃ ┃ ┗ 📜manage-language.tsx
+ ┃ ┃ ┣ 📂site-map
+ ┃ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┃ ┣ 📜EditSiteMap.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜add-site-map.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜delete-sitemap.tsx
+ ┃ ┃ ┃ ┣ 📂hooks
+ ┃ ┃ ┃ ┃ ┗ 📜use-sitemap-header.tsx
+ ┃ ┃ ┃ ┗ 📜site-map-view.tsx
+ ┃ ┃ ┣ 📂site-settings
+ ┃ ┃ ┃ ┣ 📜index.tsx
+ ┃ ┃ ┃ ┗ 📜site-settings.page.tsx
+ ┃ ┃ ┣ 📂user-settings
+ ┃ ┃ ┃ ┗ 📜user-settings.tsx
+ ┃ ┃ ┣ 📂web-contents
+ ┃ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┃ ┣ 📂faqs
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜faqs-modal.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜faqs-page.tsx
+ ┃ ┃ ┃ ┃ ┣ 📂headlines
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜headline-modal.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜headline.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜contact-us.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜faqs.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜privacy-policy.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜terms-conditions.tsx
+ ┃ ┃ ┃ ┗ 📜web-contents.tsx
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂betting
+ ┃ ┃ ┣ 📜betting-view.tsx
+ ┃ ┃ ┣ 📜live-bets.tsx
+ ┃ ┃ ┗ 📜v2betting-view.tsx
+ ┃ ┣ 📂betting-details
+ ┃ ┃ ┗ 📜bettings-details.tsx
+ ┃ ┣ 📂betting-tools-dashboard
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┣ 📜dropping-odds.tsx
+ ┃ ┃ ┃ ┣ 📜filter-panel-select-button.tsx
+ ┃ ┃ ┃ ┣ 📜mini-odds.tsx
+ ┃ ┃ ┃ ┣ 📜odds-dropping-blocked.tsx
+ ┃ ┃ ┃ ┣ 📜page-title-bar.tsx
+ ┃ ┃ ┃ ┣ 📜sorting-panel.tsx
+ ┃ ┃ ┃ ┣ 📜view-bet-odds.tsx
+ ┃ ┃ ┃ ┣ 📜view-blocked-odds.tsx
+ ┃ ┃ ┃ ┣ 📜view-canceled-postponed.tsx
+ ┃ ┃ ┃ ┣ 📜view-popular-matches.tsx
+ ┃ ┃ ┃ ┗ 📜view-value-bets.tsx
+ ┃ ┃ ┣ 📜betting-tools-dashboard.tsx
+ ┃ ┃ ┗ 📜bettings-tools-type.tsx
+ ┃ ┣ 📂bookmarkers
+ ┃ ┃ ┣ 📜bookmarkers-details.tsx
+ ┃ ┃ ┗ 📜bookmarkers.tsx
+ ┃ ┣ 📂contact-us
+ ┃ ┃ ┗ 📜contact-us-modal.tsx
+ ┃ ┣ 📂error
+ ┃ ┃ ┣ 📜error-boundary.tsx
+ ┃ ┃ ┗ 📜page-error.tsx
+ ┃ ┣ 📂faq
+ ┃ ┃ ┗ 📜faq.tsx
+ ┃ ┣ 📂home
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┣ 📂style
+ ┃ ┃ ┃ ┃ ┗ 📜home.styles.ts
+ ┃ ┃ ┃ ┣ 📜Ads-center.tsx
+ ┃ ┃ ┃ ┣ 📜bookmaker-platform-details.tsx
+ ┃ ┃ ┃ ┣ 📜league-match-view.tsx
+ ┃ ┃ ┃ ┣ 📜match-ui.tsx
+ ┃ ┃ ┃ ┣ 📜timezone-bookmarkers.tsx
+ ┃ ┃ ┃ ┗ 📜top-bookmarker-list.tsx
+ ┃ ┃ ┗ 📜Home.tsx
+ ┃ ┣ 📂league-team-table
+ ┃ ┃ ┗ 📜League-team-table.tsx
+ ┃ ┣ 📂leagues-table
+ ┃ ┃ ┗ 📜Leagues-table.tsx
+ ┃ ┣ 📂live-scores
+ ┃ ┃ ┗ 📜live-scores.tsx
+ ┃ ┣ 📂privacy-policy
+ ┃ ┃ ┗ 📜privacy-policy.tsx
+ ┃ ┣ 📂terms-conditions
+ ┃ ┃ ┗ 📜terms-conditions.tsx
+ ┃ ┣ 📂tips
+ ┃ ┃ ┗ 📜tips.tsx
+ ┃ ┣ 📂user-profile
+ ┃ ┃ ┗ 📜user-profile.tsx
+ ┃ ┗ 📂widget-home
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┣ 📜widgets-banners.tsx
+ ┃ ┃ ┃ ┣ 📜widgets-betting.tsx
+ ┃ ┃ ┃ ┣ 📜widgets-header.tsx
+ ┃ ┃ ┃ ┣ 📜widgets-sports.tsx
+ ┃ ┃ ┃ ┗ 📜widgets-testimonies.tsx
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┗ 📜widgets-styles.ts
+ ┃ ┃ ┗ 📜widgets-home.tsx
+ ┣ 📂provider
+ ┃ ┣ 📂features
+ ┃ ┃ ┣ 📂auth
+ ┃ ┃ ┃ ┗ 📜auth.ts
+ ┃ ┃ ┣ 📂bookmarkers
+ ┃ ┃ ┃ ┗ 📜index.ts
+ ┃ ┃ ┣ 📂coupon
+ ┃ ┃ ┃ ┗ 📜coupon.ts
+ ┃ ┃ ┣ 📂leagues
+ ┃ ┃ ┃ ┗ 📜leagues.ts
+ ┃ ┃ ┗ 📂livescore
+ ┃ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂hooks
+ ┃ ┃ ┗ 📜hooks.ts
+ ┃ ┗ 📂store
+ ┃ ┃ ┗ 📜store.ts
+ ┣ 📂resources
+ ┃ ┣ 📂email
+ ┃ ┃ ┣ 📜account_confirmation.html
+ ┃ ┃ ┗ 📜password_reset.html
+ ┃ ┣ 📜stadings.ts
+ ┃ ┗ 📜timzone.ts
+ ┣ 📂routes
+ ┃ ┣ 📂@types
+ ┃ ┃ ┗ 📜type.ts
+ ┃ ┣ 📂app
+ ┃ ┃ ┗ 📜application-router.tsx
+ ┃ ┣ 📜Routes.tsx
+ ┃ ┣ 📜config.routes.tsx
+ ┃ ┣ 📜path.routes.ts
+ ┃ ┣ 📜private.routes.ts
+ ┃ ┣ 📜public.routes.tsx
+ ┃ ┗ 📜sitemap.js
+ ┣ 📂services
+ ┃ ┗ 📜services.ts
+ ┣ 📂test-utils
+ ┃ ┗ 📜test-utils.tsx
+ ┣ 📂themes
+ ┃ ┣ 📜muiBoxShadows.ts
+ ┃ ┣ 📜palette.ts
+ ┃ ┣ 📜theme.constants.ts
+ ┃ ┣ 📜theme.ts
+ ┃ ┗ 📜typography.ts
+ ┣ 📂utils
+ ┃ ┣ 📂functions
+ ┃ ┃ ┣ 📜app-utils.ts
+ ┃ ┃ ┣ 📜error-handler.ts
+ ┃ ┃ ┣ 📜history.ts
+ ┃ ┃ ┣ 📜image-resizer.ts
+ ┃ ┃ ┗ 📜user-utils.ts
+ ┃ ┣ 📜common.definitions.ts
+ ┃ ┗ 📜common.helpers.ts
+ ┣ 📜.DS_Store
+ ┣ 📜App.test.tsx
+ ┣ 📜App.tsx
+ ┣ 📜index.tsx
+ ┣ 📜react-app-env.d.ts
+ ┣ 📜reportWebVitals.ts
+ ┗ 📜setupTests.ts

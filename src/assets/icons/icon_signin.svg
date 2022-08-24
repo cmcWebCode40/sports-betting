@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>icon_signin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Elements" transform="translate(-375.000000, -190.000000)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="0.7">
+            <g id="icon_signin" transform="translate(376.000000, 191.000000)">
+                <path d="M10,10 C12.7614237,10 15,7.76142375 15,5 C15,2.23857625 12.7614237,0 10,0 C7.23857625,0 5,2.23857625 5,5 C5,7.76142375 7.23857625,10 10,10 Z M4.54747351e-13,20 L4.54747351e-13,17.7142857 C4.54747351e-13,14.5583729 2.23857625,12 5,12 L15,12 C17.7614237,12 20,14.5583729 20,17.7142857 L20,20" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

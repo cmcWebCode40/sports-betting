@@ -1,0 +1,146 @@
+{
+  "header": {
+    "logo": "betxxx",
+    "navLink": [
+      {
+        "title": "home",
+        "path": "/"
+      },
+      {
+        "title": "Bet"
+      },
+      {
+        "title": "Live score"
+      },
+      {
+        "title": "Live Bets"
+      },
+      {
+        "title": "Tip"
+      },
+      {
+        "title": "Bookmakers"
+      }
+    ],
+    "search_placeholder": "Search betxxx",
+    "navLowerLinks": [
+      {
+        "title": "Football"
+      },
+      {
+        "title": "Basketball"
+      },
+      {
+        "title": "Tennis"
+      },
+      {
+        "title": "E-Sport"
+      }
+    ]
+  },
+  "user_auth": {
+    "signin": {
+      "header": "MEMBER LOGIN",
+      "forgot_password": "I forgot my password",
+      "email_username": "Username and Email address",
+      "facebook": "LOGIN WITH Facebook",
+      "reset_password": "RESET PASSWORD",
+      "country": "Country",
+      "send_email": "SEND AN EMAIL",
+      "send_mail_again": "SEND EMAIL AGAIN",
+      "registered_email": "Registered e-mail address",
+      "update_password": "CREATE NEW PASSWORD",
+      "update_password_title": "Please create a new password.",
+      "save_password": "SAVE PASSWORD",
+      "password_saved": "The password has been saved.",
+      "email_sent": "The reset Email has been sent. Please check your Email address."
+    },
+    "email": "E-mail address",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "name": "User name",
+    "signup": {
+      "header": "SIGN UP",
+      "password_character": "at least 8 characters",
+      "facebook": "SIGN UP WITH Facebook",
+      "terms": "I accept the TERMS OF USE and PRIVACY NOTICE",
+      "newsletter": "I want to subscribe to the odd bug newsletter.",
+      "title": "For Oddsbug membership, please fill out the form.",
+      "acc_confirmation_mgs": "We've sent a confirmation link to your email address. Please check your email.",
+      "mgs_not_received": "Email not received?",
+      "send_again": "SEND AGAIN",
+      "confirmed": "Congratulations! Your membership has been approved.",
+      "login": "Login",
+      "member_approval": "MEMBERSHIP APPROVAL"
+    }
+  },
+  "homepage": {
+    "date_panel_section": {
+      "jan": "Jan {{date}}",
+      "feb": "Feb {{date}}",
+      "mar": "Mar {{date}}",
+      "apr": "Apr {{date}}",
+      "may": "May {{date}}",
+      "jun": "Jun {{date}}",
+      "jul": "jul {{date}}",
+      "aug": "Aug {{date}}",
+      "sep": "Sep {{date}}",
+      "oct": "Oct {{date}}",
+      "nov": "Nov {{date}}",
+      "dec": "Dec {{date}}"
+    },
+    "league_match_section": {
+      "add_match_text": "Add Match"
+    },
+    "bookmarker_detail_card": {
+      "top_bookmakers": "Top Bookmakers",
+      "bonus_percentage_text": "Bonus Percentage",
+      "minimum_deposit_text": "Minimum Deposit",
+      "live_betting_text": "Live Betting",
+      "live_broadcast_text": "Live Broadcast",
+      "cash_out_text": "Cash out",
+      "platforms_text": "Platforms",
+      "action_buttons": {
+        "go_to_website": "GO TO WEBSITE",
+        "register_text": "Register",
+        "go_to_full_review": "Go to Full Review"
+      }
+    }
+  },
+  "common": {
+    "cupons_component": {
+      "title": "My Coupons",
+      "delete_all_text": "Delete All",
+      "site_text": "Go to the site"
+    },
+    "add_match_text": "Add Match",
+    "live_match_added_text": "Live Match added"
+  },
+  "livescores_page": {
+    "header_section": {
+      "sorting_criteria_text": "Sorting Criteria",
+      "start_time_label_text": "Start Time",
+      "country_label_text": "Country"
+    },
+    "my_matches_section": {
+      "title": "My Matches",
+      "delete_text": "Delete",
+      "guide_to_add_matches_text": "You can follow the scores more easily by adding the matches in the table with the + button."
+    }
+  },
+  "footer_section": {
+    "home": "Home",
+    "live_bet": "Live Bet",
+    "bet_text": "Bet",
+    "live_matches": "Live Matches",
+    "tips_text": "Tips",
+    "matches_text": "Matches",
+    "bettings_tools_text": "Betting Tools",
+    "bookmarks_text": "Bookmarks",
+    "frequently_asked_questions_text": "Frequently Asked Questions",
+    "privacy_policy_text": "Privacy Policy",
+    "terms_conditions_text": "Terms & Conditions",
+    "contact_us_text": "Contact Us",
+    "widgets_text": "Widgets"
+  }
+}

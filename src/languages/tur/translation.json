@@ -1,0 +1,144 @@
+{
+  "header": {
+    "logo": "bahisxxx",
+    "navLink": [
+      {
+        "title": "home",
+        "path": "/"
+      },
+      {
+        "title": "Bahİs"
+      },
+      {
+        "title": "Canlı Skor"
+      },
+      {
+        "title": "Canlı Bahİs"
+      },
+      {
+        "title": "Oyun"
+      },
+      {
+        "title": "Bahİs Şİrketlerİ"
+      }
+    ],
+    "search_placeholder": "Bahisxxxte Ara",
+    "navLowerLinks": [
+      {
+        "title": "Futbol"
+      },
+      {
+        "title": "Basketbol"
+      },
+      {
+        "title": "Tenis"
+      },
+      {
+        "title": "E-spor"
+      }
+    ]
+  },
+  "user_auth": {
+    "signin": {
+      "header": "ÜYE GİRİŞİ",
+      "forgot_password": "ŞİFREMİ UNUTTUM",
+      "email_username": "Kullanıcı Adı ve E-posta adresi",
+      "facebook": "facebook İLE GİRİŞ YAP",
+      "reset_password": "ŞİFRENİ SIFIRLA",
+      "country": "Ülke",
+      "send_email": "E-POSTA GÖNDER",
+      "registered_email": "Kayıtlı e-posta adresi",
+      "update_password": "YENİ ŞİFRE OLUŞTUR",
+      "update_password_title": "Lütfen yeni bir şifre oluşturun.",
+      "save_password": "ŞİFREYİ KAYDET",
+      "password_saved": "Şifre kaydedildi.",
+      "email_sent": "Sıfırlama e-postası gönderilmiştir. Lütfen e-posta adresinizi kontrol edin."
+    },
+    "email": "E posta adresi",
+    "password": "Şifre",
+    "name": "Kullanıcı Adı",
+    "confirm_password": "Confirm Password",
+    "signup": {
+      "header": "ÜYE OL",
+      "password_character": "En az 8 karakter",
+      "facebook": "facebook İLE ÜYE OL",
+      "terms": "KULLANIM ŞARTLARI ve GİZLİLİK BİLDİRİMİni kabul ediyorum. ",
+      "newsletter": "Oddsbug haber bültenine üye olmak istiyorum.",
+      "title": "Oddsbug üyeliği için lütfen formu doldurun.",
+      "acc_confirmation_mgs": "E-posta adresine onaylaman için bir bağlantı gönderdik. Lütfen e-postanı kontrol et.",
+      "mgs_not_received": "E-posta ulaşmadı mı?",
+      "send_again": "YENİDEN GÖNDER",
+      "confirmed": "Tebrikler! Üyeliğin onaylandı.",
+      "login": "ÜYE GİRİŞİ YAP",
+      "member_approval": "ÜYELİK ONAYI"
+    }
+  },
+  "homepage": {
+    "date_panel_section": {
+      "jan": "{{date}} Ocak",
+      "feb": "{{date}} Şubat",
+      "mar": "{{date}} Mart",
+      "apr": "{{date}} Nisan",
+      "may": "{{date}} Mayıs",
+      "jun": "{{date}} Haziran",
+      "jul": "{{date}} Temmuz",
+      "aug": "{{date}} Ağustos",
+      "sep": "{{date}} Eylül",
+      "oct": "{{date}} Ekim",
+      "nov": "{{date}} Kasım",
+      "dec": "{{date}} Aralık"
+    },
+    "league_match_section": {
+      "add_match_text": "Maçlarıma Ekle"
+    },
+    "bookmarker_detail_card": {
+      "top_bookmakers": "En İyi Bahis Şirketleri",
+      "bonus_percentage_text": "Bonus Yüzdesi",
+      "minimum_deposit_text": "Minimum Depozito",
+      "live_betting_text": "Canlı Bahis",
+      "live_broadcast_text": "Canlı Yayın",
+      "cash_out_text": "Cashout",
+      "platforms_text": "Platformlar",
+      "action_buttons": {
+        "go_to_website": "WEBSİTESİNE GİT",
+        "register_text": "KAYIT OL",
+        "go_to_full_review": "Go to Full Review"
+      }
+    }
+  },
+  "common": {
+    "cupons_component": {
+      "title": "Kuponlarım",
+      "delete_all_text": "Tümünü Sil",
+      "site_text": "SİTEYE GİT"
+    },
+    "add_match_text": "Maçlarıma Ekle"
+  },
+  "livescores_page": {
+    "header_section": {
+      "sorting_criteria_text": "Sıralama Kriterleri",
+      "start_time_label_text": "Başlangıç ​​saati",
+      "country_label_text": "Ülke"
+    },
+    "my_matches_section": {
+      "title": "Maçlarım",
+      "delete_text": "Sil",
+      "guide_to_add_matches_text": "Tablodaki maçları + butonuyla buraya ekleyerek skorları daha kolay takip edebilirsiniz."
+    }
+  },
+  "footer_section": {
+    "home": "Ev",
+    "live_bet": "Canlı Bahis",
+    "bet_text": "Bahis",
+    "live_matches": "Canlı Maçlar",
+    "tips_text": "İpuçları",
+    "matches_text": "Maçlar",
+    "bettings_tools_text": "Bahis Araçları",
+    "bookmarks_text": "Bahis Şirketleri",
+    "frequently_asked_questions_text": "Sıkça Sorulan Sorular",
+    "privacy_policy_text": "Gizlilik Politikası",
+    "terms_conditions_text": "Şartlar ve Koşullar",
+    "contact_us_text": "Bize Ulaşın",
+    "widgets_text": "Widget'lar"
+  }
+}

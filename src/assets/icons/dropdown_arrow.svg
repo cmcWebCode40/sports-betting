@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lig_secim" transform="translate(-145.000000, -13.000000)" fill="#369074">
+            <path d="M158.008345,13 C159.006168,13 159.299798,13.7391187 158.664663,14.6501839 L152.355712,23.7000184 C152.073668,24.1045946 151.622367,24.0996807 151.346241,23.6868558 L145.320285,14.6777035 C144.700529,13.7511335 145.007586,13 146.004837,13 L158.008345,13 Z" id="arrow"></path>
+        </g>
+    </g>
+</svg>
